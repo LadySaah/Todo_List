@@ -36,3 +36,10 @@
    The todo's `id` (in the URL) and the new `completed` value (in the JSON body).
 6. **Why should SQL queries use parameters instead of placing user values directly in the query string?**  
    To prevent SQL injection — parameters treat values as data, not executable SQL.
+
+
+## Note on the archived Stage 1 script
+
+`frontend/script-stage1.js` is an archived copy of the original Stage 1
+script that used a hardcoded JavaScript array of tasks. It was replaced
+in Stage 3 with `script.js`, which fetches tasks from the FastAPI backend. 
